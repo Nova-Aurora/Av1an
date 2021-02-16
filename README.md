@@ -52,14 +52,14 @@ With your own parameters:
 
     -r   --resume           If encode was stopped/quit resumes encode with saving all progress
                             Resuming automatically skips scenedetection, audio encoding/copy,
-                            spliting, so resuming only possible after actuall encoding is started.
+                            spliting, so resuming only possible after actual encoding is started.
                             temp folder must be presented for resume.
 
     --no_check              Skip checking numbers of frames for source and encoded chunks.
                             Needed if framerate changes to avoid console spam.
                             By default any differences in frames of encoded files will be reported.
 
-    --keep                  Not deleting temprally folders after encode finished.
+    --keep                  Do not delete temporary folders after encode finished.
 
     -q --quiet              Do not print tqdm to terminal.
 
